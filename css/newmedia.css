@@ -1,0 +1,70 @@
+html {
+  height: 100%
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+a {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0000EE;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.slide {
+  width: 80%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 5%;
+}
+
+.bookTitle {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.author {
+  margin-bottom: 5%;
+}
+
+.slide {
+  margin-bottom: 10em;
+}
+
+.caption {
+  text-align: center;
+  padding-bottom: 5em;
+}

@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+a {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0000EE;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6ba8a9;
+}
+
+li.navbarLink {
+  float: left;
+}
+
+li.navbarLink a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navbarLink a:hover {
+  background-color: #357376;
+}
+
+.active {
+  background-color: #357376;
+}
+
+.notice {
+  font-weight: bold;
+}
+
+.homework {
+  color: #f27f7f;
+  font-weight: bold;
+}
+
+.weekTitle {
+  text-decoration: underline;
+}
+
+.contentContainer {
+  margin: 2%;
+  border-radius: 5px;
+}
+
+.content {
+  margin: 2% 2% 12% 2%;
+}
+
+.week {}
+
+.day {
+  margin-left: 5%;
+}
+
+.arduino {
+  transition: .5s ease;
+  background-color: rgb(220, 220, 220);
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.arduino:hover .overlay {
+  opacity: 0.8;
+}
+
+.arduino:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  transition: .5s ease;
+  position: absolute;
+  opacity: 0;
+  width: inherit;
+  height: 40px;
+  text-align: center;
+  padding-top: .4em;
+  background-color: #357376;
+  color: white;
+}
+
+#arduino-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#arduino-title {
+  text-align: center;
+}
+
+#main-title {
+  text-align: center;
+}
+
+#main-subtitle {
+  text-align: center;
+}
