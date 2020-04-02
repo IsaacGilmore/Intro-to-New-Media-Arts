@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kinect with Processing</title>
+    <link rel="stylesheet" href="./css/master.css">
+  </head>
+  <body>
+    <div class="contentContainer">
+      <div class="content">
+        <h2>Some brief info about using the kinect with processing</h2>
+        <hr>
+        <p>This Daniel Shiffman how to is pretty good: <a href="https://shiffman.net/p5/kinect/">https://shiffman.net/p5/kinect/</a></p>
+        <br>
+        <p>You need a Kinect as well as an adapter to connect to USB and to power the Kinect</p>
+        <p>This is the one I ordered after I found an XBOX 360 Kinect at Goodwill for $5: <a href="https://www.amazon.com/gp/product/B073GY3C7Z/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">Kinect Adapter</a></p>
+        <br>
+        <p>Then you need the correct drivers for your machine (Windows, Linux, MacOS)</p>
+        <p>There are some differences in Kinect models, so for reference I am using a Kinect for XBOX 360 model 1414</p>
+        <p>This may look daunting, but if you look in the README there is an explanation for each OS: <a href="https://github.com/OpenKinect/libfreenect#fetch-build">https://github.com/OpenKinect/libfreenect#fetch-build</a></p>
+        <br>
+        <p>I did this in Windows 10 in about 15 minutes</p>
+        <p>The README for the Github repository linked above instructs to use Zadig to install the appropriate USB drivers for each of the devices of the Kinect.</p>
+        <p>That last sentence may seem strange because the Kinect is one object, but it appears in your system as several different devices, audio device, camera, and motor for the movement.</p>
+        <p>I installed the libusbK drivers for each Kinect device. Initially Zadig only saw one device, but after installing the appropriate driver the other two devices showed up.</p>
+        <br>
+        <p>At this point your drivers are good to go, so we need to get Processing setup</p>
+        <p>Install the OpenKinect library by Daniel Shiffman in Processing</p>
+        <p>Sketch -> Import Library -> Add Library</p>
+        <p>Search for Kinect and install the Open Kinect Library</p>
+        <br>
+        <p>Next open one of the examples and check out your Kinect</p>
+        <p>File -> Examples -> Contributed Libraries -> Open Kinect for Processing -> Kinect_v1</p>
+        <p>I looked at the RGBDepthTest example</p>
+        <img src="./images/kinectimage.PNG" alt="kinect example">
+        <p>This is just the start, but Daniel Shiffman has some great videos about how to do things with the Kinect. Reach out if you have questions!</p>
+      </div>
+    </div>
+  </body>
+</html>
